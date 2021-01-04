@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>-->
+
+    <!-- Load TensorFlow.js. This is required to use MobileNet. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+    <!-- Load the MobileNet model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"> </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+
+
+  </head>
+  <body>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+
+
+    <button id="class-a">Add Nothing</button>
+    <button id="class-b">Add Cube</button>
+    <button id="class-c">Add Eye drops bottle</button>
+
+
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+
+<p>
+    <a href="https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html#8">https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html#8</a>
+  </p>
+  </body>
+</html>
